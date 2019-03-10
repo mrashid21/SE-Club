@@ -1,0 +1,13 @@
+body{
+    background-color: #ADD8E6;
+    color: #221811;
+    background-image: url(../Asset/background.gif);
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+header{
+    background-color: #6495ED;
+    height: 160;
+    background-image: url(../Asset/selogo.jpg);
+}
