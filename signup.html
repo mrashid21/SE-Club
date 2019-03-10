@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign Up</title>
+</head>
+<body>
+	<!-- header -->
+	<header>
+		<div>
+			<h1>Software Engineering Club</h1>
+		</div>
+	</header>
+	<!-- navigation -->
+	<nav>
+		<a href="index.html">HOME</a> &nbsp;
+		<a href="about.html">ABOUT</a> &nbsp;
+		<a href="event.html">EVENTS</a> &nbsp;
+		<a href="signup.html">SIGN UP</a>
+	</nav>
+	<!-- main -->
+	<main>
+		<div>
+			<h2>Sign Up as SE Club Member</h2>
+			<p>Please fill in this form to create an account. Required information is marked with an asterisk (*).</p>
+			<!-- form -->
+			<form method="post" action="/sign-in-url">
+				<label>*Name:<br><input type="text" name="name"></label>
+				<br><label>*Student ID:<br><input type="text" name="s_id"></label>
+				<br><label>*E-mail:<br><input type="email" name="email"></label>
+				<br><label>*Password:<br><input type="password" name="pw"></label>
+				<br><label>*Repeat Password:<br><input type="password" name="rpw"></label>
+				<br><label>Birthday:<br><input type="date" name="bday"></label>
+				<div>
+					<br><label for="select-choice">Select your most favourite event:</label>
+					<select id="select-choice">
+						<option value="workshop">Workshop</option>
+						<option value="talk">Talk</option>
+						<option value="seday">SE Day</option>
+						<option value="comp">Competition</option>
+						<option value="alumni">Gathering with alumni</option>
+					</select>
+				</div>
+				<br><button id="signup">Sign Up</button>
+			</form>
+		</div>
+	</main>
+	<!-- footer -->
+	<footer>
+		<br><small><i>Copyright © 2019 UM Software Engineering Club <br> <a href="umseclub@um.edu.my">umseclub@um.edu.my</a></i></small>
+	</footer>
+</body>
+</html>
