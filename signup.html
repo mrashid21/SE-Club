@@ -2,8 +2,10 @@
 <html>
 <head>
 	<title>Sign Up</title>
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
+<div id="wrapper">
 	<!-- header -->
 	<header>
 		<div>
@@ -24,14 +26,14 @@
 			<p>Please fill in this form to create an account. Required information is marked with an asterisk (*).</p>
 			<!-- form -->
 			<form method="post" action="/sign-in-url">
-				<label>*Name:<br><input type="text" name="name"></label>
-				<br><label>*Student ID:<br><input type="text" name="s_id"></label>
-				<br><label>*E-mail:<br><input type="email" name="email"></label>
-				<br><label>*Password:<br><input type="password" name="pw"></label>
-				<br><label>*Repeat Password:<br><input type="password" name="rpw"></label>
-				<br><label>Birthday:<br><input type="date" name="bday"></label>
-				<div>
-					<br><label for="select-choice">Select your most favourite event:</label>
+				 <label>*Name:</label><input type="text" name="name">
+				 <label>*Student ID:</label><input type="text" name="s_id">
+				 <label>*E-mail: </label><input type="email" name="email">
+				 <label>*Password:</label><input type="password" name="pw">
+				 <label>*Repeat Password: </label><input type="password" name="rpw">
+				 <label>Birthday: </label><input type="date" name="bday">
+				
+				<label for="select-choice">Select your most favourite event:</label>
 					<select id="select-choice">
 						<option value="workshop">Workshop</option>
 						<option value="talk">Talk</option>
@@ -39,14 +41,15 @@
 						<option value="comp">Competition</option>
 						<option value="alumni">Gathering with alumni</option>
 					</select>
-				</div>
-				<br><button id="signup">Sign Up</button>
+				
+				<button id="newSubmit">Sign Up</button>
 			</form>
 		</div>
 	</main>
 	<!-- footer -->
 	<footer>
-		<br><small><i>Copyright © 2019 UM Software Engineering Club <br> <a href="umseclub@um.edu.my">umseclub@um.edu.my</a></i></small>
+		<br>Copyright © 2019 UM Software Engineering Club <br> <a href="umseclub@um.edu.my">umseclub@um.edu.my</a></i></small>
 	</footer>
+</div>
 </body>
 </html>
